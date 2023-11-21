@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="{DynamicResource PageBackgroundColor}"
+             x:Class="MauiApp7.Pages.MLBBpage">
+
+    <StackLayout>
+        <Image Source="ML.png" Aspect="AspectFill" HeightRequest="300"/>
+        <Label Text="Mobile Legends"
+               FontSize="36"
+               FontAttributes="Bold"
+               TextColor="#3498db"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+        <Label Text="Answer the call of the mustache! Join the international fray that is Clash of Clans. Customize your village, build an army and crush your opponents. Like using friendship to strike fear into your enemies? Join a Clan, or establish a Clashing legacy by creating your own. The choice is yours in this millions-strong community of Barbarians."
+               FontSize="18"
+               TextColor="#2c3e50"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>

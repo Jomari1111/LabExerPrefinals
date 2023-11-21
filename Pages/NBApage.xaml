@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="{DynamicResource PageBackgroundColor}"
+             x:Class="MauiApp7.Pages.NBApage">
+
+    <StackLayout>
+        <Image Source="nba.png" Aspect="AspectFill" HeightRequest="300"/>
+        <Label Text="National Baskeball Association"
+               FontSize="36"
+               FontAttributes="Bold"
+               TextColor="#3498db"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+        <Label Text="This is Why we play"
+               FontSize="18"
+               TextColor="#2c3e50"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
